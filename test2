@@ -1,0 +1,11 @@
+To commit and push the changes to the repository using the source control feature, follow these steps:
+
+1. **Stage the changes**: Click on the `+` icon next to the file in the source control panel to stage the changes.
+2. **Commit the changes**: Enter a commit message in the message box at the top of the source control panel and click the checkmark icon to commit the changes.
+3. **Push the changes**: Click on the `...` (ellipsis) icon in the source control panel and select `Push` to push the committed changes to the remote repository.
+
+If the file has a 'U' (untracked) status, you need to stage it first before committing.
+
+```markdown
+this is test2
+```
