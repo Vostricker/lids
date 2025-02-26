@@ -11,3 +11,4 @@
 // 7    click commit
 // 8   click source control ellipses '...' & select push
 // 9    this should be it!
+// 10   * add to this document if you have anything helpful to add!
