@@ -46,7 +46,7 @@
     <applicationManager autoExpand="true"/>
 
     <!-- Configures the application on a specified context root -->
-    <webApplication contextRoot="/hwdemo" location="hwdemo.war" />
+    <webApplication contextRoot="/positivityJar" location="positivityJar.war" />
 
     <!-- Default SSL configuration enables trust for default certificates from the Java runtime -->
     <ssl id="defaultSSLConfig" trustDefaultCerts="true" />
