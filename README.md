@@ -3,7 +3,7 @@ lids software engineering team
 //logo
 ![Version_2](https://github.com/user-attachments/assets/8e35b319-7437-4db6-96d5-69754af9ea87)
 
-Positivity Jar
+# Positivity Jar
 
 //Project Overview
 For this project, we are creating a web application which users log onto with their own credentials. 
