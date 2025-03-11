@@ -30,7 +30,7 @@
 
     <dataSource id="mysql-datasource" jndiName="jdbc/mysql" type="javax.sql.ConnectionPoolDataSource">
         <jdbcDriver libraryRef="mysql-lib" javax.sql.ConnectionPoolDataSource="com.mysql.cj.jdbc.MysqlConnectionPoolDataSource"/>
-        <properties URL="jdbc:mysql://localhost:3306/hwdemo" user="root" password="root"/>
+        <properties URL="jdbc:mysql://localhost:3306/positivityJar" user="root" password="root"/>
     </dataSource>
 
     <library id="mysql-lib">
