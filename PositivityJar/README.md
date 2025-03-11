@@ -34,24 +34,22 @@ Back-End
 
   Running The Application
 
-* The user will need to download:
--> npm to run Node.js
+* The user will need to download:*
+-> npm to run React Package
 -> maven
 -> Java JDK 17 or Later
 -> MySQL
 
-                * after downloads are complete:
+   * after downloads are complete:
 
-|  -> make sure you have properly cloned the LIDS repo here at GitHub! |
-| -> navigate to the root folder inside your bash                      |
-| -> mvn clean install                                                 |
-|    mvn liberty: run                                                  |
-| -* output will display localhost port, our default is at :9080       |
-|----------------------------------------------------------------------|
-| -> navigate to the root folder for react ex:********inside your bash |
-| -> npm install                                                       |
-|    npm start                                                         |
-|----------------------------------------------------------------------|
-|
+  -> make sure you have properly cloned the LIDS repo here at GitHub! 
+ -> navigate to the root folder inside your bash                      
+ *      mvn clean install                                                 
+ *      mvn liberty: run                                                  
+ -* output will display localhost port, our default is at :9080       
+----------------------------------------------------------------------
+ -> navigate to the root folder for react ex:********inside your bash 
+ *         npm install                                                       
+ *         npm start                                                         
 
-|______________________________________________________________________|
+
