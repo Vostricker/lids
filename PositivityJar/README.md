@@ -3,7 +3,7 @@
 
 # Positivity Jar
 
-//Project Overview
+Project Overview
 For this project, we are creating a web application which users log onto with their own credentials. 
 On this application people can create positivity ‘jars’
 where they can record positive events from their lives or their loved ones' lives 
@@ -14,3 +14,44 @@ including who joins, who edits, and what events are inside, if/when to release t
 The jars that a user is a part of will be shown on a dashboard of the application, 
 where the user can see them all and sort them based on certain criteria such as the date created, the type/category of jar, just to name a few.
 
+WebApplication Stack
+
+Front-End
+* Node.js
+* Apollo Client
+
+Back-End
+* Java JDK 17 or Later
+* Maven
+* OpenLiberty
+* MySQL
+
+  REST
+  *GraphQL
+
+
+
+
+  Running The Application
+
+* The user will need to download:
+-> npm to run Node.js
+-> maven
+-> Java JDK 17 or Later
+-> MySQL
+
+                * after downloads are complete:
+
+|  -> make sure you have properly cloned the LIDS repo here at GitHub! |
+| -> navigate to the root folder inside your bash                      |
+| -> mvn clean install                                                 |
+|    mvn liberty: run                                                  |
+| -* output will display localhost port, our default is at :9080       |
+|----------------------------------------------------------------------|
+| -> navigate to the root folder for react ex:********inside your bash |
+| -> npm install                                                       |
+|    npm start                                                         |
+|----------------------------------------------------------------------|
+|
+
+|______________________________________________________________________|
