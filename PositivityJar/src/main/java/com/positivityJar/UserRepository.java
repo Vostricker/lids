@@ -25,6 +25,7 @@ public class UserRepository {
             defaultUser.setEmail("test@positivtyjar.com");
             defaultUser.setPassword("password");
             entityManager.persist(defaultUser);
+        }
     }
 
 
