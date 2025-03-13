@@ -3,17 +3,14 @@
 
     <!-- Enable features -->
     <featureManager>
-        <feature>restfulWSClient-3.1</feature>
-        <feature>jsonb-3.0</feature>
+        <feature>restfulWSClient-3.0</feature>
+        <feature>jsonb-1.0</feature>
         <feature>jsonp-2.1</feature>
-        <feature>restfulWS-3.1</feature>
-        <feature>servlet-6.0</feature>
-        <feature>appSecurity-5.0</feature>
-        <feature>cdi-4.0</feature>
-        <feature>microprofile-7.0</feature>
-        <feature>jakartaee-10.0</feature>
+        <feature>restfulWS-3.0</feature>
+        <feature>cdi-2.0</feature>
+        <feature>jakartaee-8.0</feature>
         <feature>mpGraphQL-1.0</feature>
-        <feature>jdbc-4.3</feature>
+        <feature>jdbc-4.2</feature>
     </featureManager>
 
    
@@ -29,7 +26,7 @@
 
     
     
-     <httpEndpoint id="defaultHttpEndpoint"
+     <httpEndpoint host="localhost" id="defaultHttpEndpoint"
                   httpPort="9080"
                   httpsPort="9443" />
 
