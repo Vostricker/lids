@@ -3,6 +3,7 @@ package com.positivityJar.graphql;
 import org.eclipse.microprofile.graphql.Query;
 
 
+
 @org.eclipse.microprofile.graphql.GraphQLApi
  public class GraphQLApi {
 
@@ -13,3 +14,4 @@ import org.eclipse.microprofile.graphql.Query;
 
     // Add more queries and mutations here
 }
+} 
