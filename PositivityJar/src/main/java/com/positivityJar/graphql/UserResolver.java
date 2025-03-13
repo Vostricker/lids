@@ -5,7 +5,7 @@ import com.positivityJar.service.UserService;
 
 import jakarta.inject.Inject;
 import jakarta.inject.Named;
-
+import org.eclipse.microprofile.graphql.GraphQLApi;
 
 @GraphQLApi
 public class UserResolver {
