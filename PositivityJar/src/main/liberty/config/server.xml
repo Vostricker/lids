@@ -13,7 +13,7 @@
    
 
      <library id="mysql-lib">
-        <file name= "${server.config.dir}/mysql-connector-java.jar"/>
+        <file name= "${server.config.dir}/mysql-connector-j-9.2.0.jar"/>
          </library>
 
     <dataSource id="mysql-datasource" jndiName="jdbc/mysql" type="javax.sql.ConnectionPoolDataSource">
