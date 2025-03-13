@@ -14,4 +14,3 @@ import org.eclipse.microprofile.graphql.Query;
 
     // Add more queries and mutations here
 }
-} 
