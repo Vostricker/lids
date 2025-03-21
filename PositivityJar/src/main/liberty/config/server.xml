@@ -3,23 +3,17 @@
 
     <!-- Enable features -->
     <featureManager>
-        <feature>restfulWSClient-3.1</feature>
-        <feature>jsonb-3.0</feature>
-        <feature>jsonp-2.1</feature>
-        <feature>restfulWS-3.1</feature>
-        <feature>servlet-6.0</feature>
-        <feature>appSecurity-5.0</feature>
-        <feature>cdi-4.0</feature>
-        <feature>microprofile-7.0</feature>
-        <feature>jakartaee-10.0</feature>
+        <feature>appSecurity-1.0</feature>
+        <feature>jsonb-1.0</feature>       
+        <feature>jakartaee-8.0</feature>
         <feature>mpGraphQL-1.0</feature>
-        <feature>jdbc-4.3</feature>
+        <feature>jdbc-4.2</feature>
     </featureManager>
 
    
 
      <library id="mysql-lib">
-        <file name= "${server.config.dir}/mysql-connector-java.jar"/>
+        <file name= "${server.config.dir}/mysql-connector-j-9.2.0.jar"/>
          </library>
 
     <dataSource id="mysql-datasource" jndiName="jdbc/mysql" type="javax.sql.ConnectionPoolDataSource">
@@ -27,9 +21,14 @@
         <properties URL="jdbc:mysql://localhost:3306/positivityJar" user="root" password="root"/>
     </dataSource>
 
+    <basicRegistry id="BasicRegistry">
+        <user name="admin" password="admin"/>
+        <user name="user" password="user"/>    
+    </basicRegistry>
     
+    <orb id="defaultOrb" />
     
-     <httpEndpoint id="defaultHttpEndpoint"
+     <httpEndpoint host="localhost" id="defaultHttpEndpoint"
                   httpPort="9080"
                   httpsPort="9443" />
 
@@ -37,7 +36,7 @@
     <applicationManager autoExpand="true"/>
 
     <!-- Configures the application on a specified context root -->
-    <webApplication contextRoot="/positivityJar" location="positivityJar.war" />
+    <webApplication contextRoot="/positivityJar"  location="positivityJar.war" />
 
     <!-- Default SSL configuration enables trust for default certificates from the Java runtime -->
     <ssl id="defaultSSLConfig" trustDefaultCerts="true" />
